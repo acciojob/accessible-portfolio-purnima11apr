@@ -4,10 +4,33 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Accessible Portfolio</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header>
+      <h1 role="heading" aria-level="1">My Portfolio</h1>
+		 <nav role="navigation">
+      <ul role="list">
+        <li role="listitem"><a href="#">Home</a></li>
+        <li role="listitem"><a href="#">Projects</a></li>
+        <li role="listitem"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+	</header>
+	 <main>
+    <img src="https://images.unsplash.com/photo-1692599571997-638cce53e54a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Profile Image" role="img">
+    <p>This is a brief description of me and my work.</p>
+    <section>
+      <h2 role="heading" aria-level="2">Projects</h2>
+      <ul role="list">
+        <li role="listitem">Project 1: <a href="#">Project Title</a></li>
+        <li role="listitem">Project 2: <a href="#">Project Title</a></li>
+        <li role="listitem">Project 3: <a href="#">Project Title</a></li>
+      </ul>
+    </section>
+  </main>
     <script type="text/javascript" src="./script.js">
 </script>
 
